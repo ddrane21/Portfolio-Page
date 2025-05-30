@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  background-color: #2c3e50;
+  font-family: "Inter", sans-serif;
+  color: #f0f0f0;
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tagline {
+  font-size: 16px;
+  color: #ccc;
+  margin-top: 5px;
+  font-style: italic;
+  margin-left: 30px;
+}
+
+.nav-links a {
+  color: #f0f0f0;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+  margin: 65px;
+}
+
+.nav-links a:hover {
+  color: #e67e22;
+}
+
+.logo {
+  font-size: 24px;
+  color: #e67e22;
+  font-family: "Courier New", monospace;
+  letter-spacing: 1px;
+}
+
+.social-links a {
+  font-size: 24px;
+  color: #f0f0f0;
+  margin-right: 15px;
+  transition: color 0.3s;
+}
+
+.social-links a:hover {
+  color: #e67e22;
+}
+
+.profile-pic {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  margin: 20px;
+  margin-right: 60px;
+}
+
+html,
+body {
+  background-color: #f5f5dc;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Inter", sans-serif;
+  color: #2d2d2d;
+}
+.home-page-about-me {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.hero-text {
+  max-width: 500px;
+  color: #2c3e50;
+}
+
+.hero-text h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.hero-text h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #e67e22;
+}
+
+.hero-text p {
+  font-size: 20px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.site-footer {
+  background-color: #2c3e50;
+  color: #f0f0f0;
+  text-align: center;
+  padding: 30px 20px;
+  margin-top: 60px;
+  font-family: "Inter", sans-serif;
+  width: 100%;
+  height: 100%;
+}
+
+.footer-quotes {
+  display: flex;
+  justify-content: center;
+  gap: 120px;
+  flex-wrap: wrap;
+  padding: 40px 20px;
+}
+
+.quote-card {
+  max-width: 250px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.quote {
+  font-style: italic;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.author {
+  font-weight: bold;
+  color: #888;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-links a,
+.footer-socials a {
+  color: #f0f0f0;
+  margin: 0 10px;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.footer-links a:hover,
+.footer-socials a:hover {
+  color: #e67e22;
+}
